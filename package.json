@@ -1,0 +1,31 @@
+{
+  "name": "angular_with_nodejs",
+  "version": "1.0.0",
+  "description": "Run project Angular on server NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duongduckien/angular_with_nodejs.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angular2",
+    "angular4",
+    "angular4+",
+    "angular5",
+    "nodejs"
+  ],
+  "author": "Duong Kien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongduckien/angular_with_nodejs/issues"
+  },
+  "homepage": "https://github.com/duongduckien/angular_with_nodejs#readme",
+  "dependencies": {
+    "config": "^1.29.2",
+    "express": "^4.16.2"
+  }
+}
