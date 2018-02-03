@@ -23,13 +23,10 @@ app.get('/', function(req, res) {
 /**
  * With user_id & app_id
  */
-app.get('/:user/:app', function(req, res) {
-  
+app.get('/:user/:app', function(req, res) { 
   let userId = parseInt(req.params.user);
   let appId = parseInt(req.params.app);
-
   res.sendFile(rootFileOrigami + '/' + userId + '/' + appId + '/index.html');
-
 });
 
 var server = app.listen(process.env.PORT || port, host, function(){
